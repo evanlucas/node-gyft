@@ -1,0 +1,32 @@
+{
+  "name": "gyft",
+  "version": "0.0.1",
+  "description": "Gyft api client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evanlucas/node-gyft.git"
+  },
+  "keywords": [
+    "gaw",
+    "gyft",
+    "api",
+    "client"
+  ],
+  "author": "Evan Lucas <evan@btc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/node-gyft/issues"
+  },
+  "homepage": "https://github.com/evanlucas/node-gyft",
+  "dependencies": {
+    "request": "~2.51.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0",
+    "should": "~4.6.0"
+  }
+}
