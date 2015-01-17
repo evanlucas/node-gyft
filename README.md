@@ -43,8 +43,7 @@ gyft.listCards(function(err, cards) {
 
 `opts` must contain both an `apiKey` and `secret` property. It may also
 contain a `url` property. The url will be the API url to use to access
-the Gyft API.  It currently defaults to the sandbox (this will change once the
-package hits 1.x)
+the Gyft API.
 
 
 #### Gyft.prototype.listCards(Object:opts, cb)
